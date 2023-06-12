@@ -1,0 +1,8 @@
+CREATE TABLE proyectos (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    NombreProyecto VARCHAR(255),
+    fuenteFondos VARCHAR(255),
+    MontoPlanificado DECIMAL(10, 2),
+    MontoPatrocinado DECIMAL(10, 2),
+    MontoFondosPropios DECIMAL(10, 2)
+);
